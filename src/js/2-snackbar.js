@@ -16,12 +16,14 @@ function onSubmitForm(event) {
         message: `✅ Fulfilled promise in ${delay}ms`,
         position: 'topRight',
       });
+      form.reset();
     })
     .catch(delay => {
       iziToast.error({
         message: `❌ Rejected promise in ${delay}ms`,
         position: 'topRight',
       });
+      form.reset();
     });
 }
 
