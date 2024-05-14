@@ -17,17 +17,6 @@ let timerId = null;
 
 startBtn.disabled = true;
 
-dateInput.addEventListener('change', () => {
-  const selectedDate = new Date(dateInput.value);
-  const currentDate = new Date();
-  if (!selectedDate) return;
-  if (selectedDate < currentDate) {
-    startBtn.disabled = true;
-  } else {
-    startBtn.disabled = false;
-  }
-});
-
 startBtn.addEventListener('click', () => {
   startBtn.disabled = true;
   dateInput.disabled = true;

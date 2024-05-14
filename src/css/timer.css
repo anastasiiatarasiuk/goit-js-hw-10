@@ -19,6 +19,7 @@
   color: #2e2f42;
   padding: 8px 16px;
   margin-bottom: 32px;
+  margin-top: 20px;
 }
 
 #datetime-picker:hover {
@@ -28,6 +29,10 @@
 #datetime-picker:focus {
   border-color: #4e75ff;
   outline: #4e75ff;
+}
+#datetime-picker:disabled {
+  color: #808080;
+  border-color: #808080;
 }
 
 [data-start] {

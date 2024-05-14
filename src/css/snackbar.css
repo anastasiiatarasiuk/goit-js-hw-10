@@ -7,5 +7,72 @@
   padding: 7px;
   text-decoration: none;
   cursor: pointer;
-  margin-bottom: 20px;
+}
+.form {
+  width: 360px;
+  padding: 16px;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-top: 30px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.form > label {
+  display: block;
+  margin-bottom: 16px;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+input[name='delay'] {
+  width: 100%;
+  max-width: 326px;
+  padding: 8px 16px;
+  margin-top: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+input[name='delay']:hover {
+  border-color: #000;
+}
+input[name='delay']:focus {
+  outline: #4e75ff;
+  border-color: #4e75ff;
+}
+fieldset {
+  max-width: 360px;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  border: 1px solid #808080;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+  display: flex;
+  justify-content: space-around;
+}
+fieldset:hover,
+fieldset:focus {
+  border-color: #000;
+}
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  background: #4e75ff;
+  border-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+button:hover,
+button:focus {
+  background: #6c8cff;
 }
